@@ -3,21 +3,21 @@
 
 import 'dart:async';
 
-import 'package:estudo/pages/home_page1.dart';
+import 'package:estudo/pages/Onboarding1.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 
 
 
-class HomePage extends StatefulWidget {
-  const HomePage({Key? key}) : super(key: key);
+class SplashScreen extends StatefulWidget {
+  const SplashScreen({Key? key}) : super(key: key);
 
   @override
-  State<HomePage> createState() => InitSate();
+  State<SplashScreen> createState() => InitSate();
 }
 
-class InitSate extends State<HomePage>{
+class InitSate extends State<SplashScreen>{
   @override
   void initState() {
     // TODO: implement initState
@@ -32,7 +32,7 @@ class InitSate extends State<HomePage>{
 
   route() {
     Navigator.pushReplacement(context, MaterialPageRoute(
-        builder: (context) => HomePage1()
+        builder: (context) => Onboarding1()
     ));
   }
 

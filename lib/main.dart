@@ -1,4 +1,4 @@
-import 'package:estudo/pages/home_page.dart';
+import 'package:estudo/pages/SplashScreen.dart';
 import 'package:flutter/material.dart';
 
 
@@ -22,7 +22,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       home: PageView(
         children: [
-          HomePage()
+          SplashScreen()
         ],
       ),
 
