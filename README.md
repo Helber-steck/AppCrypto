@@ -1,16 +1,40 @@
-# estudo
+<h1 align="center"> :moneybag:
+AppCrypto  :moneybag:</h1>
 
-projeto de testes
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+<br>
+<h2 align="center"> :clipboard: Descrição do projeto </h2>
+<p>Projeto desenvolvido com Flutter, Dart. O objetivo de acompanhar o mercado de Cryptos. Com este projeto pude praticar novos conhecimentos como: consumir api.<p>
+  
+  <h3>:open_file_folder:<i> Dê uma olhadinha no projeto por este link : </i></h3>
+  
+   
 
-A few resources to get you started if this is your first Flutter project:
+ <h2 align = "center" >:hammer: Funcionalidades do projeto</h2>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- `Funcionalidade 1`: 
+  <p> xx.</p>
+   
+   
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+   <br>
+
+- `Funcionalidade 2`: 
+<p> .</p>
+
+
+
+  <br>
+  
+- `Funcionalidade 3`: 
+  <p>,<p/>
+  
+  <br>
+  
+     
+    
+     
+
+
+<p align="center">:construction: Desenvolvimento:construction:</p>
