@@ -12,37 +12,43 @@ class Onboarding1 extends StatelessWidget {
           Container(
             width: MediaQuery.of(context).size.width,
             height: MediaQuery.of(context).size.height,
-            decoration: BoxDecoration(color:Color(0xFF1B232A)),
-            child: Image.asset('assets/stars/star.png',),
+            decoration: const BoxDecoration(color:Color(0xFF1B232A)),
 
-
-          ),
-          Container(
-            alignment: Alignment.center,
-
-          ),
+          ),//Background
 
           Container(
-            alignment: Alignment(-1.0,0.3),
-            child: Image.asset('assets/constalacao/const1.png'),
+            alignment: Alignment.topCenter,
+            child: Image.asset('assets/grupo.png'),
+          ),//imagen estrelas
 
+          Container(
+            alignment: Alignment.topLeft,
+            child: Image.asset('assets/iluminacao.png'),
           ),
+
+          Container(
+            width: 330,
+            height: 360,
+            alignment: Alignment(5,-0.20),
+            child: Image.asset('assets/astro.png'),
+
+          ),//Imagen astronauta
+
           Container(
               alignment: Alignment(0.9,-0.3),
               child: Image.asset('assets/constalacao/const2.png')
           ),
           Container(
-            alignment: Alignment(0.0,0.20),
-            child: Text('Masmas Crypto',style: TextStyle(
-                fontSize: 36,
-                fontWeight: FontWeight.w700,
-                fontFamily: 'Poppins-Bold',
-                color: Color(0xFF5ED5A8)
+            alignment: Alignment(0.0,0.40),
+            child: Text('Trade anytime anywhere',style: TextStyle(
+                fontSize: 24,
+                fontWeight: FontWeight.w400,
+                fontFamily: 'NeueMontreal-Regular',
+                color: Colors.white
             )),
           ),
           Container(
-            alignment: AlignmentDirectional.bottomEnd,
-            child: Image.asset('assets/stars/degrade.png'),
+
 
 
 
