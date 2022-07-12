@@ -69,6 +69,8 @@ flutter:
     - assets/astro.png
     - assets/grupo.png
     - assets/iluminacao.png
+    - assets/Rectangle.png
+    - assets/elipse.png
   # - images/a_dot_ham.jpeg
        # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
