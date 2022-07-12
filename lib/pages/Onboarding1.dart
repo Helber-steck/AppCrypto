@@ -1,14 +1,19 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+import '../Button.dart';
+
 class Onboarding1 extends StatelessWidget {
   const Onboarding1({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+
       body: Stack(
+
         children:[
+
           Container(
             width: MediaQuery.of(context).size.width,
             height: MediaQuery.of(context).size.height,
@@ -27,9 +32,8 @@ class Onboarding1 extends StatelessWidget {
           ),
 
           Container(
-            width: 330,
-            height: 360,
-            alignment: Alignment(5,-0.20),
+
+            alignment: Alignment(0,-0.60),
             child: Image.asset('assets/astro.png'),
 
           ),//Imagen astronauta
@@ -39,25 +43,75 @@ class Onboarding1 extends StatelessWidget {
               child: Image.asset('assets/constalacao/const2.png')
           ),
           Container(
-            alignment: Alignment(0.0,0.40),
+              alignment: Alignment.center,
+              child: Image.asset('assets/Rectangle.png')
+          ),
+
+          Container(
+            alignment: Alignment(0.0,0.30),
             child: Text('Trade anytime anywhere',style: TextStyle(
                 fontSize: 24,
                 fontWeight: FontWeight.w400,
                 fontFamily: 'NeueMontreal-Regular',
                 color: Colors.white
-            )),
+            )
+            ),
+
+
           ),
           Container(
+            padding: const EdgeInsets.all(30),
+            alignment: Alignment(0.0,0.50),
+            child: Text('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.', textAlign: TextAlign.center ,
 
-
-
-
+                style: TextStyle(
+                fontSize: 18,
+                fontWeight: FontWeight.w400,
+                fontFamily: 'NeueMontreal-Regular',
+                color: Color(0xFF7777777)
+            )
+            ),
           ),
+
+              Container(
+                alignment: Alignment(0, 0.65),
+              child: Image.asset('assets/elipse.png'),
+              ),
+          Container(
+            alignment: Alignment(0, 0.85),
+              child: SizedBox(
+                width: 180,
+                height: 54,
+                child: ElevatedButton(
+                  style: ButtonStyle(
+                      shape: MaterialStateProperty.resolveWith((states){
+                        return RoundedRectangleBorder(borderRadius: BorderRadius.circular(16));
+                      }),
+                   backgroundColor: MaterialStateProperty.resolveWith((states){
+                      return Color(0xFF5ED5A8);
+                    })
+
+                  ) ,
+                  onPressed: () {},
+                  child: const Text('Next',style: TextStyle(
+                      fontSize: 18,
+                      fontWeight: FontWeight.w400,
+                      fontFamily: 'NeueMontreal-Regular',
+                      color: Color(0xFF171D22)
+                  )),
+                ),
+              ),
+            ),
+
+
+
+
 
         ],
 
 
       ),
+
     );
 
   }
