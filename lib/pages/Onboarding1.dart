@@ -1,7 +1,8 @@
+import 'package:estudo/pages/Onboarding2.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import '../Button.dart';
+
 
 class Onboarding1 extends StatelessWidget {
   const Onboarding1({Key? key}) : super(key: key);
@@ -31,24 +32,28 @@ class Onboarding1 extends StatelessWidget {
             child: Image.asset('assets/iluminacao.png'),
           ),
 
-          Container(
+          Column(
+            children: [
+              Center(
+                child: Container(
+                  width:331 ,
+                  height: 369,
+                  alignment: Alignment(.0,80.0),
+                  child: Image.asset('assets/astro.png'),
 
-            alignment: Alignment(0,-0.60),
-            child: Image.asset('assets/astro.png'),
-
+                ),
+              ),
+            ],
           ),//Imagen astronauta
 
-          Container(
-              alignment: Alignment(0.9,-0.3),
-              child: Image.asset('assets/constalacao/const2.png')
-          ),
+
           Container(
               alignment: Alignment.center,
               child: Image.asset('assets/Rectangle.png')
           ),
 
           Container(
-            alignment: Alignment(0.0,0.30),
+            alignment: Alignment(0.0,0.25),
             child: Text('Trade anytime anywhere',style: TextStyle(
                 fontSize: 24,
                 fontWeight: FontWeight.w400,
@@ -61,7 +66,7 @@ class Onboarding1 extends StatelessWidget {
           ),
           Container(
             padding: const EdgeInsets.all(30),
-            alignment: Alignment(0.0,0.50),
+            alignment: Alignment(0.0,0.55),
             child: Text('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.', textAlign: TextAlign.center ,
 
                 style: TextStyle(
@@ -92,7 +97,12 @@ class Onboarding1 extends StatelessWidget {
                     })
 
                   ) ,
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => Onboarding2()),
+                    );
+                  },
                   child: const Text('Next',style: TextStyle(
                       fontSize: 18,
                       fontWeight: FontWeight.w400,
