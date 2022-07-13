@@ -67,10 +67,14 @@ flutter:
     - assets/stars/star.png
     - assets/stars/degrade.png
     - assets/astro.png
+    - assets/astro2.png
+    - assets/astro3.png
     - assets/grupo.png
     - assets/iluminacao.png
     - assets/Rectangle.png
     - assets/elipse.png
+    - assets/elipse2.png
+    - assets/elipse3.png
   # - images/a_dot_ham.jpeg
        # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
