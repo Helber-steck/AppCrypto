@@ -59,7 +59,7 @@ class InitSate extends State<SplashScreen>{
            ),
 
            Container(
-    alignment: Alignment(-1.0,0.3),
+    alignment: Alignment(-1.0,0.4),
     child: Image.asset('assets/constalacao/const1.png'),
 
            ),
@@ -67,6 +67,17 @@ class InitSate extends State<SplashScreen>{
           alignment: Alignment(0.9,-0.3),
           child: Image.asset('assets/constalacao/const2.png')
           ),
+
+           Container(
+               alignment: Alignment(1.0,0.7),
+               child: Image.asset('assets/constalacao/const3.png')
+           ),
+
+           Container(
+               alignment: Alignment(-1.0,-0.5),
+               child: Image.asset('assets/constalacao/const4.png')
+           ),
+
            Container(
              alignment: Alignment(0.0,0.20),
              child: Text('Masmas Crypto',style: TextStyle(
