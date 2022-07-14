@@ -13,8 +13,8 @@ AppCrypto  :moneybag:</h1>
   
    <h2 align = "center" >:iphone: Telas</h2>
    
-<img src="https://user-images.githubusercontent.com/80336880/179002485-6db8a3c9-1fcd-40a3-8fb2-37da665a3326.jpeg" alt="App Screenshots" width="212">   <img src="https://user-images.githubusercontent.com/80336880/179003317-723edc17-d67e-4527-b603-af9a9da6bacd.jpeg" alt="App Screenshots" width="212">  <img src="https://user-images.githubusercontent.com/80336880/179003742-d49168ad-5865-49c9-9432-cef8a50c60f8.jpeg" alt="App Screenshots" width="212"> 
- <img src="https://user-images.githubusercontent.com/80336880/179003915-b846c8e4-680d-4bb7-a182-d737e148d764.jpeg" alt="App Screenshots" width="212"> 
+<img src="https://user-images.githubusercontent.com/80336880/179003742-d49168ad-5865-49c9-9432-cef8a50c60f8.jpeg" alt="App Screenshots" width="212"> <img src="https://user-images.githubusercontent.com/80336880/179003915-b846c8e4-680d-4bb7-a182-d737e148d764.jpeg" alt="App Screenshots" width="212">  <img src="https://user-images.githubusercontent.com/80336880/179003317-723edc17-d67e-4527-b603-af9a9da6bacd.jpeg" alt="App Screenshots" width="212">   <img src="https://user-images.githubusercontent.com/80336880/179002485-6db8a3c9-1fcd-40a3-8fb2-37da665a3326.jpeg" alt="App Screenshots" width="212">  
+ 
 
 
 
