@@ -6,6 +6,8 @@ AppCrypto  :moneybag:</h1>
 <br>
 <h2 align="center"> :clipboard: Descrição do projeto </h2>
 <p>Projeto desenvolvido com Flutter, Dart. O objetivo de acompanhar o mercado de Cryptos. Com este projeto pude praticar novos conhecimentos como: consumir api.<p>
+
+<h3><i> Utilizado o Layout Figma link :https://www.figma.com/file/Rfnw1sc6hDHFicZpjTGIoe/Masmas-Crypto-Mobile-App-UI-Kit-(Community)?node-id=0%3A1 </i></h3>
   
   <h3>:open_file_folder:<i> Dê uma olhadinha no projeto por este link : </i></h3>
   
