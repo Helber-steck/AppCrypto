@@ -58,8 +58,10 @@ class Onboarding1 extends StatelessWidget {
                 fontSize: 24,
                 fontWeight: FontWeight.w400,
                 fontFamily: 'NeueMontreal-Regular',
-                color: Colors.white
-            )
+                color: Colors.white,
+
+            ),
+
             ),
 
 

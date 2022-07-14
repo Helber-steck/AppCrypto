@@ -37,23 +37,23 @@ class Onboarding3 extends StatelessWidget {
                 child: Container(
                   width:331 ,
                   height: 369,
-                  alignment: Alignment(.0,80.0),
+                  alignment: Alignment(.0,41.8),
                   child: Image.asset('assets/astro3.png'),
 
                 ),
               ),
             ],
           ),//Imagen astronauta
-
-
           Container(
               alignment: Alignment.center,
               child: Image.asset('assets/Rectangle.png')
-          ),
+          ), // Sombra
+
+
 
           Container(
             alignment: Alignment(0.0,0.25),
-            child: Text('Save and invest at the same time',style: TextStyle(
+            child: Text('Transact fast and easy',style: TextStyle(
                 fontSize: 24,
                 fontWeight: FontWeight.w400,
                 fontFamily: 'NeueMontreal-Regular',

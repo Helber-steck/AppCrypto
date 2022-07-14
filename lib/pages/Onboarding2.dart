@@ -50,21 +50,25 @@ class Onboarding2 extends StatelessWidget {
           Container(
               alignment: Alignment.center,
               child: Image.asset('assets/Rectangle.png')
-          ),
+          ), // Sombra
 
           Container(
+
+            padding: const EdgeInsets.all(30),
             alignment: Alignment(0.0,0.25),
-            child: Text('Save and invest at the same time',style: TextStyle(
+            child: Text('Save and invest at the same time',textAlign: TextAlign.center, style: TextStyle(
                 fontSize: 24,
                 fontWeight: FontWeight.w400,
                 fontFamily: 'NeueMontreal-Regular',
-                color: Colors.white
+                color: Colors.white,
+
             )
             ),
 
 
           ),
           Container(
+            width: 366,
             padding: const EdgeInsets.all(30),
             alignment: Alignment(0.0,0.55),
             child: Text('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.', textAlign: TextAlign.center ,
