@@ -1,7 +1,9 @@
+import 'package:estudo/pages/Market.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../Button.dart';
+import '../home/home_page.dart';
 
 class Onboarding3 extends StatelessWidget {
   const Onboarding3({Key? key}) : super(key: key);
@@ -97,7 +99,10 @@ class Onboarding3 extends StatelessWidget {
 
                 ) ,
                 onPressed: () {
-
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => HomePage()),
+                  );
                 },
                 child: const Text('Next',style: TextStyle(
                     fontSize: 18,
