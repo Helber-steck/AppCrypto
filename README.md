@@ -44,4 +44,4 @@ AppCrypto  :moneybag:</h1>
      
 
 
-<p align="center">:construction: Desenvolvimento:construction:</p>
+<p align="center">:construction:  Em Desenvolvimento:construction:</p>
